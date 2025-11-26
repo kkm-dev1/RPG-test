@@ -1,0 +1,14 @@
+[build-system]
+requires = ["pygbag"]
+
+[tool.pygbag]
+# pygbag 설정
+# main.py를 진입점으로 사용
+main = "main.py"
+# 제목 설정
+title = "RPG 게임"
+# 아이콘 설정 (선택사항)
+# icon = "icon.png"
+# 버전 설정
+version = "0.1.0"
+
